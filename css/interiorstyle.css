@@ -30,11 +30,6 @@ body {
   animation-fill-mode: forwards;
 }
 
-#remove-decoration {
-  text-decoration: none;
-  color: #292929;
-}
-
 .small-font {
   font-size: 11px;
   font-family: "Montserrat", sans;
