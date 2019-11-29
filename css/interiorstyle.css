@@ -1,0 +1,151 @@
+body {
+  font-family: "Open Sans", sans;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #292929;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 6% 12% 12% 40% 12% 12% 6%;
+  grid-column-gap: 1px;
+  grid-template-rows: 50px;
+  align-items: center;
+  justify-items: center;
+  z-index: 10;
+  position: fixed;
+  margin-top: -5%;
+  padding-top: 5px;
+}
+
+.big-font {
+  font-size: 22px;
+  font-family: "Montserrat", sans;
+  animation-name: loadOpacity;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+#remove-decoration {
+  text-decoration: none;
+  color: #292929;
+}
+
+.small-font {
+  font-size: 11px;
+  font-family: "Montserrat", sans;
+  text-decoration: none;
+  color: #292929;
+  animation-name: loadOpacity;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.on-load-opacity {
+  animation-name: loadOpacity;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes loadOpacity {
+  0% {
+       opacity: 0;
+   }
+   100% {
+       opacity: 1;
+   }
+}
+
+.big-intro-font {
+  font-size: 70px;
+  text-align: center;
+  font-family: 'Baskervville', serif;
+  background-color: #999999;
+  width: 100%;
+  margin-top: 5%;
+  padding-top: 14%;
+  padding-bottom: 14%;
+  animation-name: loadOpacity;
+  animation-delay: 0s;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: forwards;
+}
+
+.small-intro-font {
+  font-size: 18px;
+  text-align: center;
+  font-family: 'PT Serif', serif;
+  padding-top: 20px;
+}
+
+.project-1 {
+  font-family: "Baskervville", serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 7%;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+ul {
+  padding: 0;
+}
+
+.activator {
+  opacity: 0.7;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+  margin-top: 40%;
+}
+
+.slide {
+  display: none;
+  margin-top: -42%;
+}
+
+.activator:nth-of-type(1):checked ~ .slide:nth-of-type(1) {
+  display: block;
+  animation-name: showSlide;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+.activator:nth-of-type(2):checked ~ .slide:nth-of-type(2) {
+  display: block;
+  animation-name: showSlide;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+.activator:nth-of-type(3):checked ~ .slide:nth-of-type(3) {
+  display: block;
+  animation-name: showSlide;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+.activator:nth-of-type(4):checked ~ .slide:nth-of-type(4) {
+  display: block;
+  animation-name: showSlide;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+@keyframes showSlide {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
