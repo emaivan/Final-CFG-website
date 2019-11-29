@@ -20,6 +20,11 @@ body {
   padding-top: 5px;
 }
 
+.remove-decoration {
+  text-decoration: none;
+  color: #292929;
+}
+
 .big-font {
   font-size: 22px;
   font-family: "Montserrat", sans;
