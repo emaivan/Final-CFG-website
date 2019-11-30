@@ -87,54 +87,130 @@ body {
   padding-top: 20px;
 }
 
+/*New activators instead of the default radio ones*/
+.new-activator-flex {
+  display: flex;
+  flex-direction: row;
+  width: 105px;
+  justify-content: space-around;
+  position: absolute;
+}
+
+.new-activator {
+  width: 15px;
+  height: 15px;
+  background-color: #292929;
+  opacity: 0.7;
+}
+
+/*First project example*/
 .project-1 {
-  font-family: "Baskervville", serif;
-  font-size: 20px;
-  text-align: center;
-  margin-top: 7%;
-  letter-spacing: 1px;
+  margin-top: 10%;
+  margin-bottom: 10%;
   width: 100%;
+  margin-left: 46.5%;
 }
 
 ul {
   padding: 0;
 }
 
-.activator {
-  opacity: 0.7;
+.activator-1 {
+  opacity: 0;
   cursor: pointer;
   width: 15px;
   height: 15px;
-  margin-top: 40%;
 }
 
-.slide {
+.slide-1 {
   display: none;
-  margin-top: -42%;
+  margin-top: -30px;
+  margin-left: -21%;
 }
 
-.activator:nth-of-type(1):checked ~ .slide:nth-of-type(1) {
+.activator-1:nth-of-type(1):checked ~ .slide-1:nth-of-type(1) {
   display: block;
   animation-name: showSlide;
   animation-duration: 0.3s;
   animation-timing-function: linear;
 }
 
-.activator:nth-of-type(2):checked ~ .slide:nth-of-type(2) {
+.activator-1:nth-of-type(2):checked ~ .slide-1:nth-of-type(2) {
   display: block;
   animation-name: showSlide;
   animation-duration: 0.3s;
   animation-timing-function: linear;
 }
 
-.activator:nth-of-type(3):checked ~ .slide:nth-of-type(3) {
+.activator-1:nth-of-type(3):checked ~ .slide-1:nth-of-type(3) {
   display: block;
   animation-name: showSlide;
   animation-duration: 0.3s;
   animation-timing-function: linear;
 }
 
-.activator:nth-of-type(4):checked ~ .slide:nth-of-type(4) {
+.activator-1:nth-of-type(4):checked ~ .slide-1:nth-of-type(4) {
+  display: block;
+  animation-name: showSlide;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+@keyframes showSlide {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/*Fourth project example*/
+.project-4 {
+  width: 100%;
+  margin-left: 46.5%;
+  margin-bottom: 10%;
+}
+
+ul {
+  padding: 0;
+}
+
+.activator-4 {
+  opacity: 0;
+  cursor: pointer;
+  width: 15px;
+  height: 15px;
+}
+
+.slide-4 {
+  display: none;
+  margin-top: -30px;
+  margin-left: -21%;
+}
+
+.activator-4:nth-of-type(1):checked ~ .slide-4:nth-of-type(1) {
+  display: block;
+  animation-name: showSlide;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+.activator-4:nth-of-type(2):checked ~ .slide-4:nth-of-type(2) {
+  display: block;
+  animation-name: showSlide;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+.activator-4:nth-of-type(3):checked ~ .slide-4:nth-of-type(3) {
+  display: block;
+  animation-name: showSlide;
+  animation-duration: 0.3s;
+  animation-timing-function: linear;
+}
+
+.activator-4:nth-of-type(4):checked ~ .slide-4:nth-of-type(4) {
   display: block;
   animation-name: showSlide;
   animation-duration: 0.3s;
