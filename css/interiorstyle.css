@@ -87,7 +87,7 @@ body {
   padding-top: 20px;
 }
 
-/*New activators instead of the default radio ones*/
+/*New activators for ALL radio buttons instead of the default radio ones*/
 .new-activator-flex {
   display: flex;
   flex-direction: row;
@@ -103,11 +103,38 @@ body {
   opacity: 0.7;
 }
 
+/*The style of project numbers for ALL projects*/
+.project-number {
+  font-family: 'Baskervville', serif;
+  font-size: 90px;
+  width: 80px;
+  height: 115px;
+  margin-top: -50%;
+  margin-left: -70%;
+  margin-bottom: 27%;
+  padding-left: 10px;
+  color: gray;
+  background-color: #292929;
+}
+
+/*The style of project name for ALL projects*/
+.project-name {
+  font-family: 'Baskervville', serif;
+  color: #292929;
+  background-color: lightgrey;
+  font-size: 50px;
+  width: 100px;
+  padding-left: 10px;
+  padding-right: 10px;
+  height: 230px;
+  margin-top: -50%;
+  margin-left: 71%;
+}
+
 /*First project example*/
 .project-1 {
   margin-top: 10%;
-  margin-bottom: 10%;
-  width: 100%;
+  margin-bottom: 20%;
   margin-left: 46.5%;
 }
 
@@ -125,7 +152,7 @@ ul {
 .slide-1 {
   display: none;
   margin-top: -30px;
-  margin-left: -21%;
+  margin-left: -41%;
 }
 
 .activator-1:nth-of-type(1):checked ~ .slide-1:nth-of-type(1) {
@@ -167,9 +194,9 @@ ul {
 
 /*Fourth project example*/
 .project-4 {
-  width: 100%;
+  margin-top: 20%;
+  margin-bottom: 20%;
   margin-left: 46.5%;
-  margin-bottom: 10%;
 }
 
 ul {
@@ -186,7 +213,7 @@ ul {
 .slide-4 {
   display: none;
   margin-top: -30px;
-  margin-left: -21%;
+  margin-left: -41%;
 }
 
 .activator-4:nth-of-type(1):checked ~ .slide-4:nth-of-type(1) {
