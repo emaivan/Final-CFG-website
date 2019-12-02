@@ -98,20 +98,20 @@ body {
   margin-top: 10%;
   margin-left: 20%;
   margin-bottom: 10%;
-  height: 500px;
+  height: 40vw;
   background-color: #292929;
   color: #999999;
 }
 
 .project-number {
   font-family: 'Baskervville', serif;
-  font-size: 70px;
+  font-size: 6vw;
   margin-right: 5%;
 }
 
 .project-name {
   font-family: 'Baskervville', serif;
-  font-size: 60px;
+  font-size: 5vw;
   margin-left: 5%;
 }
 
