@@ -7,19 +7,17 @@ body {
 .navigation {
   background-color: rgba(255, 255, 255, 0.8);
   color: #292929;
-  font-family: 'Montserrat', sans;
   width: 100%;
-  height: 4%;
   display: grid;
   grid-template-columns: 6% 12% 12% 40% 12% 12% 6%;
   grid-column-gap: 1px;
-  grid-template-rows: 4%;
+  grid-template-rows: 50px;
   align-items: center;
   justify-items: center;
   z-index: 10;
   position: fixed;
-  margin-top: -66px;
-  padding-top: 2%;
+  margin-top: -5%;
+  padding-top: 5px;
 }
 
 .remove-decoration {
@@ -163,13 +161,13 @@ body {
   justify-items: left;
   background-color: grey;
   width: 100%;
-  bottom: 0;
+  position: absolute;
 }
 
 /*Item styling*/
 #item-1, #item-2, #item-3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 0.9vw;
   color: #292929;
 }
 
@@ -180,20 +178,20 @@ body {
 }
 
 #item-2 {
-  font-size: 40px;
+  font-size: 3vw;
   text-align: center;
   justify-self: center;
-  padding-top: 30px;
+  padding-top: 3%;
 }
 
 .item-2-smaller {
-  font-size: 12px;
+  font-size: 0.9vw;
   justify-self: center;
   color: #292929;
 }
 
 .item-2-smallest {
-  font-size: 10px;
+  font-size: 0.8vw;
   justify-self: center;
   color: #292929;
 }
@@ -206,7 +204,7 @@ body {
 
 /*Social media icon styling*/
 #icons-credit {
-  font-size: 8px;
+  font-size: 0.7vw;
 }
 
 .icons {

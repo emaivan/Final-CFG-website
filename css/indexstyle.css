@@ -159,198 +159,173 @@ body {
 }
 
  /*First section*/
+.separator {
+  width: 60%;
+  margin-top: 8%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 1px;
+  background-color: #292929;
+}
+
 .grid {
   display: grid;
-  grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 100%;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 8%;
-  margin-bottom: 8%;
-  font-size: 1.5vw;
+  grid-template-columns: 100%;
+  grid-template-rows: 5% 15% 80%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .heading {
   font-family: 'Baskervville', serif;
   font-size: 2.5vw;
-  margin-top: 10%;
-  padding-top: 80%;
-  padding-left: 15%;
-  padding-bottom: 50%;
-  height: 32%;
-  width: 70%;
-  background-color: #292929;
-  color: #999999;
+  color: #292929;
   z-index: -2;
+  font-style: italic;
+  justify-self: center;
 }
 
 .number {
-  justify-self: right;
+  justify-self: center;
   font-family: 'Baskervville', serif;
-  font-size: 5vw;
-  margin-top: 10%;
-  padding-top: 80%;
-  padding-left: 15%;
-  padding-bottom: 50%;
-  height: 32%;
-  width: 60%;
-  background-color: #292929;
-  color: #999999;
+  font-size: 2vw;
+  color: #292929;
+  font-style: italic;
 }
 
-.boxShadow {
-  box-shadow: 1px 2px 8px rgb(0, 0, 0);
-  padding: 5%;
+.paragraph {
   color: #292929;
-  background-color: #999999;
   text-align: justify;
-  font-family: 'PT Serif', serif;
+  font-family: 'Montserrat', serif;
+  font-size: 1.3vw;
 }
 
 /*Second section*/
+.separator-2 {  /* This also applies to the third section*/
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  height: 1px;
+  background-color: #292929;
+}
+
 .grid-2 {
   display: grid;
-  grid-template-columns: 20% 60% 20%;
-  grid-template-rows: 100%;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 8%;
-  font-size: 1.5vw;
+  grid-template-columns: 100%;
+  grid-template-rows: 5% 13% 82%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .heading-2 {
   font-family: 'Baskervville', serif;
   font-size: 2.5vw;
-  margin-top: 10%;
-  padding-top: 100%;
-  padding-left: 15%;
-  padding-bottom: 50%;
-  height: 37%;
-  width: 70%;
-  background-color: #292929;
-  color: #999999;
+  color: #292929;
   z-index: -2;
+  font-style: italic;
+  justify-self: center;
 }
 
 .number-2 {
-  justify-self: right;
+  justify-self: center;
   font-family: 'Baskervville', serif;
-  font-size: 5vw;
-  margin-top: 10%;
-  padding-top: 100%;
-  padding-left: 15%;
-  padding-bottom: 50%;
-  height: 37%;
-  width: 60%;
-  background-color: #292929;
-  color: #999999;
+  font-size: 2vw;
+  color: #292929;
+  font-style: italic;
 }
 
-.boxShadow-2 {
-  box-shadow: 1px 2px 8px rgb(0, 0, 0);
-  padding: 5%;
+.paragraph-2 {
   color: #292929;
-  background-color: #999999;
   text-align: justify;
-  font-family: 'PT Serif', serif;
+  font-family: 'Montserrat', serif;
+  font-size: 1.3vw;
 }
 
 /*Third section*/
 .grid-3 {
   display: grid;
-  grid-template-columns: 20% 60% 20%;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 8%;
-  font-size: 1.5vw;
+  grid-template-columns: 100%;
+  grid-template-rows: 10% 30% 60%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .heading-3 {
-  font-size: 2.5vw;
-  margin-top: 10%;
-  padding-top: 20%;
-  padding-bottom: 20%;
-  padding-left: 5%;
-  height: 25%;
-  width: 80%;
-  background-color: #292929;
-  color: #999999;
-  z-index: -2;
   font-family: 'Baskervville', serif;
+  font-size: 2.5vw;
+  color: #292929;
+  z-index: -2;
+  font-style: italic;
+  justify-self: center;
 }
 
 .number-3 {
-  justify-self: right;
-  font-size: 5vw;
-  margin-top: 10%;
-  padding-top: 15%;
-  padding-bottom: 20%;
-  padding-left: 15%;
-  height: 30%;
-  width: 60%;
-  background-color: #292929;
-  color: #999999;
+  justify-self: center;
   font-family: 'Baskervville', serif;
+  font-size: 2vw;
+  color: #292929;
+  font-style: italic;
 }
 
-.boxShadow-3 {
-  box-shadow: 1px 2px 8px rgb(0, 0, 0);
-  padding: 5%;
+.paragraph-3 {
   color: #292929;
-  background-color: #999999;
   text-align: justify;
-  font-family: 'PT Serif', serif;
+  font-family: 'Montserrat', serif;
+  font-size: 1.3vw;
 }
 
 /*Fourth section*/
+.separator-4 {
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 8%;
+  height: 1px;
+  background-color: #292929;
+}
+
 .grid-4 {
   display: grid;
-  grid-template-columns: 20% 60% 20%;
-  width: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-bottom: 8%;
-  font-size: 1.5vw;
+  grid-template-columns: 100%;
+  grid-template-rows: 5% 13% 82%;
+  width: 40%;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 5%;
+  margin-bottom: 5%;
 }
 
 .heading-4 {
-  font-size: 2.5vw;
-  margin-top: 4%;
-  padding-top: 100%;
-  padding-left: 15%;
-  padding-bottom: 50%;
-  height: 33%;
-  width: 70%;
-  background-color: #292929;
-  color: #999999;
-  z-index: -2;
   font-family: 'Baskervville', serif;
+  font-size: 2.5vw;
+  color: #292929;
+  z-index: -2;
+  font-style: italic;
+  justify-self: center;
 }
 
 .number-4 {
-  justify-self: right;
-  font-size: 5vw;
-  margin-top: 4%;
-  padding-top: 100%;
-  padding-left: 15%;
-  padding-bottom: 50%;
-  height: 33%;
-  width: 60%;
-  background-color: #292929;
-  color: #999999;
+  justify-self: center;
   font-family: 'Baskervville', serif;
+  font-size: 2vw;
+  color: #292929;
+  font-style: italic;
 }
 
-.boxShadow-4 {
-  box-shadow: 1px 2px 8px rgb(0, 0, 0);
+.paragraph-4 {
   color: #292929;
-  padding-bottom: 5%;
-  background-color: #999999;
   text-align: center;
-  font-family: 'PT Serif', serif;
+  font-family: 'Montserrat', serif;
+  font-size: 1.3vw;
 }
 
 .image-boxShadow {
