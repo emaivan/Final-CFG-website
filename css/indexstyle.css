@@ -1,5 +1,4 @@
 body {
-  font-family: "Open Sans", sans;
   margin: 0;
   padding: 0;
 }
@@ -45,7 +44,7 @@ body {
 }
 
 .big-font {
-  font-size: 22px;
+  font-size: 1.6vw;
   font-family: "Montserrat", sans;
   animation-name: loadOpacity;
   animation-delay: 0s;
@@ -55,7 +54,7 @@ body {
 }
 
 .small-font {
-  font-size: 11px;
+  font-size: 0.8vw;
   font-family: "Montserrat", sans;
   text-decoration: none;
   color: #292929;
@@ -68,20 +67,22 @@ body {
 
  .main-image {
   margin-top: 5%;
- animation-name: loadOpacity;
- z-index: -3;
+  margin-left: 6%;
+  margin-right: 2%;
+  animation-name: loadOpacity;
+  z-index: -3;
 }
 
 .text-overlay-before {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: -400px;
+    margin-top: -30%;
     cursor: pointer;
     position: absolute;
     font-family: serif;
     color: white;
-    font-size: 70px;
+    font-size: 4.7vw;
     text-align: center;
     z-index: 3;
     font-family: 'Baskervville', serif;
@@ -89,7 +90,7 @@ body {
 }
 
 .text-overlay {
-  font-size: 50px;
+  font-size: 3.5vw;
   font-family: serif;
   position: absolute;
   height: 100%;
@@ -111,7 +112,7 @@ body {
 }
 
 .text-overlay-two {
-  font-size: 40px;
+  font-size: 3vw;
   font-family: serif;
   position: absolute;
   height: 50%;
@@ -146,17 +147,17 @@ body {
 .location-text {
   color: white;
   font-family: serif;
-  font-size: 18px;
+  font-size: 1.5vw;
   position: absolute;
   width: 40%;
   margin-left: 30%;
   margin-right: 30%;
-  margin-top: -50px;
-  z-index: 2;
+  margin-top: -4%;
   text-align: center;
   font-family: 'Baskervville', serif;
   animation-name: loadOpacity;
 }
+
  /*First section*/
 .grid {
   display: grid;
@@ -167,13 +168,12 @@ body {
   margin-right: 5%;
   margin-top: 8%;
   margin-bottom: 8%;
-  font-family: 'PT Serif', serif;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 .heading {
-  font-family: 'Baskerville', serif;
-  font-size: 34px;
+  font-family: 'Baskervville', serif;
+  font-size: 2.5vw;
   margin-top: 10%;
   padding-top: 80%;
   padding-left: 15%;
@@ -187,8 +187,8 @@ body {
 
 .number {
   justify-self: right;
-  font-family: 'Baskerville', serif;
-  font-size: 60px;
+  font-family: 'Baskervville', serif;
+  font-size: 5vw;
   margin-top: 10%;
   padding-top: 80%;
   padding-left: 15%;
@@ -205,6 +205,7 @@ body {
   color: #292929;
   background-color: #999999;
   text-align: justify;
+  font-family: 'PT Serif', serif;
 }
 
 /*Second section*/
@@ -216,13 +217,12 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 8%;
-  font-family: 'PT Serif', serif;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 .heading-2 {
-  font-family: 'Baskerville', serif;
-  font-size: 34px;
+  font-family: 'Baskervville', serif;
+  font-size: 2.5vw;
   margin-top: 10%;
   padding-top: 100%;
   padding-left: 15%;
@@ -236,8 +236,8 @@ body {
 
 .number-2 {
   justify-self: right;
-  font-family: 'Baskerville', serif;
-  font-size: 60px;
+  font-family: 'Baskervville', serif;
+  font-size: 5vw;
   margin-top: 10%;
   padding-top: 100%;
   padding-left: 15%;
@@ -254,6 +254,7 @@ body {
   color: #292929;
   background-color: #999999;
   text-align: justify;
+  font-family: 'PT Serif', serif;
 }
 
 /*Third section*/
@@ -264,13 +265,11 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 8%;
-  font-family: 'PT Serif', serif;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 .heading-3 {
-  font-family: 'Baskerville', serif;
-  font-size: 34px;
+  font-size: 2.5vw;
   margin-top: 10%;
   padding-top: 20%;
   padding-bottom: 20%;
@@ -280,12 +279,12 @@ body {
   background-color: #292929;
   color: #999999;
   z-index: -2;
+  font-family: 'Baskervville', serif;
 }
 
 .number-3 {
   justify-self: right;
-  font-family: 'Baskerville', serif;
-  font-size: 60px;
+  font-size: 5vw;
   margin-top: 10%;
   padding-top: 15%;
   padding-bottom: 20%;
@@ -294,6 +293,7 @@ body {
   width: 60%;
   background-color: #292929;
   color: #999999;
+  font-family: 'Baskervville', serif;
 }
 
 .boxShadow-3 {
@@ -302,6 +302,7 @@ body {
   color: #292929;
   background-color: #999999;
   text-align: justify;
+  font-family: 'PT Serif', serif;
 }
 
 /*Fourth section*/
@@ -312,13 +313,11 @@ body {
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 8%;
-  font-family: 'PT Serif', serif;
-  font-size: 20px;
+  font-size: 1.5vw;
 }
 
 .heading-4 {
-  font-family: 'Baskerville', serif;
-  font-size: 34px;
+  font-size: 2.5vw;
   margin-top: 4%;
   padding-top: 100%;
   padding-left: 15%;
@@ -328,12 +327,12 @@ body {
   background-color: #292929;
   color: #999999;
   z-index: -2;
+  font-family: 'Baskervville', serif;
 }
 
 .number-4 {
   justify-self: right;
-  font-family: 'Baskerville', serif;
-  font-size: 60px;
+  font-size: 5vw;
   margin-top: 4%;
   padding-top: 100%;
   padding-left: 15%;
@@ -342,6 +341,7 @@ body {
   width: 60%;
   background-color: #292929;
   color: #999999;
+  font-family: 'Baskervville', serif;
 }
 
 .boxShadow-4 {
@@ -350,6 +350,7 @@ body {
   padding-bottom: 5%;
   background-color: #999999;
   text-align: center;
+  font-family: 'PT Serif', serif;
 }
 
 .image-boxShadow {
@@ -373,7 +374,7 @@ body {
 /*Item styling*/
 #item-1, #item-2, #item-3 {
   font-family: 'Montserrat', sans-serif;
-  font-size: 12px;
+  font-size: 0.9vw;
   color: #292929;
 }
 
@@ -384,20 +385,20 @@ body {
 }
 
 #item-2 {
-  font-size: 40px;
+  font-size: 3vw;
   text-align: center;
   justify-self: center;
-  padding-top: 30px;
+  padding-top: 3%;
 }
 
 .item-2-smaller {
-  font-size: 12px;
+  font-size: 0.9vw;
   justify-self: center;
   color: #292929;
 }
 
 .item-2-smallest {
-  font-size: 10px;
+  font-size: 0.8vw;
   justify-self: center;
   color: #292929;
 }
@@ -410,7 +411,7 @@ body {
 
 /*Social media icon styling*/
 #icons-credit {
-  font-size: 8px;
+  font-size: 0.7vw;
 }
 
 .icons {
