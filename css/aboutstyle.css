@@ -4,9 +4,15 @@ body {
   padding: 0;
 }
 
+.remove-decoration {
+  text-decoration: none;
+  color: #292929;
+}
+
 .navigation {
   background-color: rgba(255, 255, 255, 0.8);
   color: #292929;
+  font-family: 'Montserrat', sans;
   width: 100%;
   display: grid;
   grid-template-columns: 6% 12% 12% 40% 12% 12% 6%;
@@ -16,17 +22,12 @@ body {
   justify-items: center;
   z-index: 10;
   position: fixed;
-  margin-top: -5%;
-  padding-top: 5px;
-}
-
-.remove-decoration {
-  text-decoration: none;
-  color: #292929;
+  margin-top: -7%;
+  padding-top: 2%;
 }
 
 .big-font {
-  font-size: 22px;
+  font-size: 1.6vw;
   font-family: "Montserrat", sans;
   animation-name: loadOpacity;
   animation-delay: 0s;
@@ -36,7 +37,7 @@ body {
 }
 
 .small-font {
-  font-size: 11px;
+  font-size: 0.8vw;
   font-family: "Montserrat", sans;
   text-decoration: none;
   color: #292929;
