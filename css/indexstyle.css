@@ -32,20 +32,21 @@ body {
   color: #292929;
   font-family: 'Montserrat', sans;
   width: 100%;
+  height: 4%;
   display: grid;
   grid-template-columns: 6% 12% 12% 40% 12% 12% 6%;
   grid-column-gap: 1px;
-  grid-template-rows: 50px;
+  grid-template-rows: 4%;
   align-items: center;
   justify-items: center;
   z-index: 10;
   position: fixed;
-  margin-top: -53px;
-  padding-top: 5px;
+  margin-top: -3.8%;
+  padding-top: 2%;
 }
 
 .big-font {
-  font-size: 22px;
+  font-size: 1.6vw;
   font-family: "Montserrat", sans;
   animation-name: loadOpacity;
   animation-delay: 0s;
@@ -55,7 +56,7 @@ body {
 }
 
 .small-font {
-  font-size: 11px;
+  font-size: 0.8vw;
   font-family: "Montserrat", sans;
   text-decoration: none;
   color: #292929;
@@ -68,30 +69,28 @@ body {
 
 .main-image {
  margin-left: 4%;
- margin-top: 51px;
+ margin-top: 3.5%;
  z-index: 0;
  animation-name: loadOpacity;
- z-index: -3;
 }
 
 .text-overlay-before {
     width: 70%;
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: -400px;
+    margin-top: -30%;
     cursor: pointer;
     position: absolute;
     font-family: serif;
     color: white;
-    font-size: 70px;
+    font-size: 5vw;
     text-align: center;
-    z-index: 3;
     font-family: 'Baskervville', serif;
     animation-name: loadOpacity;
 }
 
 .text-overlay {
-  font-size: 50px;
+  font-size: 3.5vw;
   font-family: serif;
   position: absolute;
   height: 100%;
@@ -113,7 +112,7 @@ body {
 }
 
 .text-overlay-two {
-  font-size: 40px;
+  font-size: 3vw;
   font-family: serif;
   position: absolute;
   height: 50%;
