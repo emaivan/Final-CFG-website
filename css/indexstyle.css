@@ -41,7 +41,7 @@ body {
   justify-items: center;
   z-index: 10;
   position: fixed;
-  margin-top: -4%;
+  margin-top: -5%;
   padding-top: 2%;
 }
 
@@ -69,7 +69,7 @@ body {
 
 .main-image {
  margin-left: 4%;
- margin-top: 3.5%;
+ margin-top: 5%;
  z-index: 0;
  animation-name: loadOpacity;
 }
