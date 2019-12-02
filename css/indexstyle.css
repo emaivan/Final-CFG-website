@@ -26,6 +26,11 @@ body {
   text-decoration: none;
 }
 
+.remove-decoration-2 {
+  color: #292929;
+  text-decoration: underline;
+}
+
 .navigation {
   background-color: rgba(255, 255, 255, 0.8);
   color: #292929;
