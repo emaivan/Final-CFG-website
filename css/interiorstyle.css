@@ -68,7 +68,7 @@ body {
 }
 
 .big-intro-font {
-  font-size: 70px;
+  font-size: 5vw;
   text-align: center;
   font-family: 'Baskervville', serif;
   background-color: #999999;
@@ -84,7 +84,7 @@ body {
 }
 
 .small-intro-font {
-  font-size: 18px;
+  font-size: 1.3vw;
   text-align: center;
   font-family: 'PT Serif', serif;
   padding-top: 20px;
