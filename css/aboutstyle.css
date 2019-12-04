@@ -4,6 +4,7 @@ body {
   padding: 0;
 }
 
+/*Removes text-decoration for all links*/
 .remove-decoration {
   text-decoration: none;
   color: #292929;
@@ -89,7 +90,6 @@ body {
 }
 
 /*Main content style*/
-
 .small-text {
   color: #292929;
   font-family: 'Montserrat', serif;
@@ -120,6 +120,7 @@ body {
   margin-right: 20%;
 }
 
+/*Adjusts the margin of the documentary image*/
 #minimalism {
   margin-left: 50%;
 }

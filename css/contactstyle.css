@@ -98,6 +98,7 @@ body {
   font-size: 1.3vw;
 }
 
+/*Smaller input fields*/
 .input-1 {
   background: #404040;
   color: lightgrey;
@@ -113,6 +114,8 @@ body {
   padding: 8px;
 }
 
+
+/*Bigger input field*/
 .input-2 {
   background: #404040;
   color: lightgrey;
@@ -128,6 +131,7 @@ body {
   padding: 8px;
 }
 
+/*Size of the checkboxes*/
 input[type="checkbox"] {
   width: 1.5vw;
   height: 1.5vw;
